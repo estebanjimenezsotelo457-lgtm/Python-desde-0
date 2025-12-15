@@ -211,6 +211,158 @@
 
 # Le estamos diciendo a el programa si 10 no es mayor a 100 se ejecute el print
 
+# num_uno = int(input(" Escribe un numero que sea igual a 5: "))
+
+# if not num_uno == 5:
+#     print (" El numero no es igual a 5, pero si se cumple la condicion")
+# else:
+#     print (" El numero es igual a 5, pero no se cumple la condicion")
+
+# Basicamente es un if a la inversa, porque en primera instancia el numero no es igual a 5 pero cumple 
+# Despues el numero puede ser igual a 5, pero no la cumple
+# El el num_uno pase de ser true a ser false para cumplir la condiccion 
+
+# Segundo ejercicio 
+
+# nombre = input (" Hola, ingresa tu nombre aqui: ")
+# clave = int(input(" ingresa tu numero de clave son del 1 a el 3: "))
+# años = int(input(" Ingresa tu nuemro de años que haz estado trabajando: "))
+
+# if clave == 1 and años == 1:
+#     print (" Por el año que trabajaste recibes 6 dias de vacaciones")
+# elif clave == 1 and años > 2 and años < 7:
+#     print (" Por lo años que trabajaste recibes 14 dias de vacaciones")
+# elif clave == 1 and años > 7:
+#     print (" Por los años que trabajaste recibes 30 dias de vacaciones")
+# elif clave == 2 and años == 1:
+#     print("Por el año que trabajaste recibes 7 dias de vacaciones")
+# elif clave == 2 and años > 2 and años < 7:
+#     print (" Por lo años que trabajaste recibes 14 dias de vacaciones")
+# elif clave == 2 and años > 7:
+#     print (" Por los años que trabajaste recibes 22 dias de vacaciones")
+# elif clave == 3 and años == 1:
+#     print("Por el año que trabajaste recibes 10 dias de vacaciones")
+# elif clave == 3 and años > 2 and años < 7:
+#     print (" Por lo años que trabajaste recibes 20 dias de vacaciones")
+# elif clave == 3 and años > 7:
+#     print (" Por los años que trabajaste recibes 30 dias de vacaciones")
+# else:
+#     print (" La clave no existe")
+
+# # Ejercicio 3 (Numero par o impar)
+
+# numero = int(input(" Ingresa el numero: "))
+
+# if numero % 2 == 0:
+#     print (" El numero" , numero , "es par")
+# else:
+#     print (" El numero" , numero , "es impar")
+
+# Ejercicio 4 (El numero mas grande de los 3)
+
+# nro1 = int(input(" Ingresa el primer numero: "))
+# nro2 = int(input(" Ingresa el segundo numero: "))
+# nro3 = int (input(" Ingresa el tercer numero: "))
+
+# if nro1 > nro2 and nro3:
+#     print (" El " , nro1 , "es el mayor a" , nro2 ,"y" , nro3)
+# elif nro2 > nro1 and nro3:
+#     print( " El " , nro2 , "es el mayor a" , nro1 ,"y" , nro3)
+# elif nro3 > nro1 and nro2:
+#     print( " El " , nro3 , "es el mayor a" , nro1 ,"y" , nro2)
+# else:
+#     print(" No ingresaste ningun numero o no ingresaste los 3 numeros")
+
+# Operadores de asignacion 
+
+# El cual asigna el valor que se encuentra de el lado derecho a la variable del lado izquierdo
+# Es decir, x = y asigna el valor de y a x 
+
+# = 
+# Esta asignacion es la que recibe el valor que le des a una variable, puede ser texto o numeros 
+# ejemeplo: X = luz o M = 12
+
+# += 
+# por ejemplo tienes la varibale M = 12 y quieres añadirle otro numero, pues puedes hacerlo asi:
+# M += 5, entonces la varible queda en 17 porque le añadiste otro valor y se sumaron 
+
+# -= 
+# Lo mismo que el de la suma pero con resta
+# tienes la variable M = 12 y quieres restarle a esa variable entonces puedes hacerlo asi:
+# M -= 5, entonces la variable queda en 8 porque le restaste el valor que es 5
+
+# *= 
+
+# Digamos que tienes la variable M = 12 y quieres multiplicarla por 2 entonces puedes hacerlo asi:
+# M *= 2, entonces al iniciar tenias tu variable M = 12 y la multiplicaste x2 M *= 2 entonces el resultado es:
+# M = 24 
+
+# /= 
+
+# Digamos que tienes la variable M = 12 y quieres dividirla por 2 entoces puedes hacerlo asi:
+# M /= 2, entoces al iniciar tu variable valia 12 M = 12 al dividirla por 2 entonces quedaria asi:
+# M = 6 
+
+# // ( La division entera es que si yo quiero dividir algo que me pueda dar como resultado algo decimal
+# solo me dara como resultado su parte entero osea digamos 3.3 me daria su parte entera que es 3)
+# en su ejecucion es igual a la division normal solo le agrego //= y le doy el valor en el que quiero dividir
+
+# % ( Modulo o resto)
+
+# Digamos que tienes la variable M = 12 y quieres saber el residuo de la division y se guarde en tu variable M
+# Entonces hacemos lo siguiente M %= 2, esto siganifica divide M = 12 entre 2 pero dame el residuo en la variable
+# No el resultado de la division si no el residuo que seria 0 porque no sobra nada
+
+# Juego de varibles 
+
+# Esto seria los mismo que lo anterior pero con variable por ejemplo
+# Sumemos dos variables M += J seria asi M = 12 + J = 3 seria M 15 = y J = 5
+# M queria con 15 y J con 5, J le sumo pero queria con el mismo valor
+
+# Ejercicio
+
+# print (" Calculadora ")
+
+# print("//////////////////////")
+# print("/                    /")
+# print("/  Menu de opciones  /")
+# print("/                    /")
+# print("/      1. suma       /")
+# print("/      2. resta      /")
+# print("/      3. div        /")
+# print("/      4. multi       /")
+# print("/                    /")
+# print("//////////////////////")
+
+# opcion = int(input(" Hola, elige la operacion que quieras: "))
+
+# primer_numero = int(input(" Ingresa tu primer numero: "))
+# segundo_numero = int(input(" Ingresa tu segundo numero: "))
+
+# if opcion == 1:
+#     primer_numero += segundo_numero
+#     print (" El resultado de" , primer_numero , "+" , segundo_numero ,"es:" , primer_numero)
+# elif opcion == 2:
+#     primer_numero -= segundo_numero
+#     print (" El resultado de" , primer_numero , "-" , segundo_numero ,"es:" , primer_numero)
+# elif opcion == 3:
+#     primer_numero /= segundo_numero
+#     print(" El resultado de" , primer_numero , "/" , segundo_numero ,"es:" , primer_numero)
+# elif opcion == 4:
+#     primer_numero *= segundo_numero
+#     print(" El resultado de" , primer_numero , "x" , segundo_numero ,"es:" , primer_numero)
+# else:
+#     print(" No ingresaste ningun numero o solo uno")
+
+
+
+
+
+
+
+
+
+
 
 
 
