@@ -354,6 +354,69 @@
 # else:
 #     print(" No ingresaste ningun numero o solo uno")
 
+# Sep y end 
+
+# End 
+# print (" Esto es un" , end="")
+# print (" Ejemplo")
+
+# Si no tuviera en quedaria asi 
+# Esto es un
+# Ejemplo
+# Pero con end podemos hacer que esta linea de codigo se imprima en una sola linea y no en dos
+# Tambien podemos agragar cosas que apareceran en el salto de linea osea apareceria en la mitad
+# asi: Esto es un (*/*) Ejemplo 
+
+# Sep 
+# print ("1","2","3","4","5")
+
+# Pyton al imprimir este print dejaria unos espacios asi: 1 2 3 4 5
+# Pero con Sep podemos eliminar esos espacios o agregar lo que tu decidas, como por ejemplo:
+
+# print ("1","2","3","4","5" , sep="")
+
+# Quedaria asi: 12345 
+
+# print ("1","2","3","4","5" , sep="/")
+
+# Quedaria asi: 1/2/3/4/5
+
+# Ciclo while 
+
+# Este ciclo se repite mientras una condicion de cumpla como por ejemplo:
+# Tu eres un varible llamada: pepe y hay otra variable que se llama contador con el valor 0
+# Entoces digamos que profesor te mando una instruccion de dar 5 vueltas a la cancha y contar cada vuelta
+# y ponerla en el contador, entonces el ciclo comienza con esa condicion
+# Das la primera vuelta, uno en el contador, das la segunda vuelta, dos en el contador, das la tercera 
+# vuelta, tres en el contador, das la cuarta vuelta, cuatro en el contador, das la quinta vuelta
+# cinco en el contador y ahi se acaba el ciclo porque la condicion del profe era 5 vueltas y las cumpliste
+# ejemplo
+
+# tu = "pepe"
+# vueltas = 0
+
+# while vueltas < 5:
+#     vueltas += 1
+
+# print (tu , "ya has dado cumplido con las" , vueltas , "vueltas a la cancha")
+
+# Fibonacci 
+
+nro1 = 0
+nro2 = 1
+contador = 0 
+
+while contador < 1597:
+    contador = nro1 + nro2
+    nro1 += nro2
+    print (contador)
+    
+
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597
+
+
+
+
 
 
 
